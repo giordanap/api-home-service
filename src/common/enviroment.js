@@ -14,6 +14,7 @@ dotenv.config({
 
 class environment {
     static port = process.env.PORT || 3001;
+    static mongo_url = process.env.MONGO_URL || 'URL';
 }
 
 export default environment;
